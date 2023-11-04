@@ -16,7 +16,7 @@ AIname = "computer" # Name to call the assistant, such as "computer" or "jarvis"
 City = ''           # Default city for weather, Google uses + for spaces. (uses IP location if not specified)
 
 # possibly redudant settings, but keeping them for easy debugging, for now.
-Model = 'small'     # Whisper model size (tiny, base, small, medium, large)
+Model = 'tiny'     # Whisper model size (tiny, base, small, medium, large)
 English = True      # Use english-only model?
 Translate = False   # Translate non-english to english?
 SampleRate = 44100  # Stream device recording frequency
