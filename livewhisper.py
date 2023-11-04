@@ -9,7 +9,7 @@ from scipy.io.wavfile import write
 # This terminal implementation can run standalone or imported for assistant.py
 # by Nik Stromberg - nikorasu85@gmail.com - MIT 2022 - copilot
 
-Model = 'large'     # Whisper model size (tiny, base, small, medium, large)
+Model = 'tiny'     # Whisper model size (tiny, base, small, medium, large)
 English = True      # Use English-only model?
 Translate = False   # Translate non-English to English?
 SampleRate = 44100  # Stream device recording frequency
